@@ -8,7 +8,7 @@ import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 const Hero = ({
   listUser = [
     {
-      name: "Users",
+      name: "Projects",
       number: "390",
       icon: "/assets/Icon/heroicons_sm-user.svg",
     },
@@ -18,8 +18,8 @@ const Hero = ({
       icon: "/assets/Icon/gridicons_location.svg",
     },
     {
-      name: "Server",
-      number: "50",
+      name: "Variants",
+      number: "2",
       icon: "/assets/Icon/bx_bxs-server.svg",
     },
   ],
@@ -37,18 +37,20 @@ const Hero = ({
             variants={scrollAnimation}>
             <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
               <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-                Want anything to be easy with <strong>LaslesVPN</strong>.
+              Transforming Spaces with  <strong>Shree Hari Interlock Bricks</strong>.
               </h1>
               <p className="text-black-500 mt-4 mb-6">
-                Provide a network for all your needs with ease and fun using
-                LaslesVPN discover interesting features from us.
+                Welcome to Shree Hari Interlocks Bricks! We specialize in providing high-quality interlock bricks that are perfect for creating beautiful, durable, and eco-friendly constructions. 
               </p>
-              <ButtonPrimary>Get Started</ButtonPrimary>
+              <p className="text-black-500 mb-6">
+                Whether you’re paving a driveway, building a garden path, or constructing an entire building, our interlock bricks are the ideal choice. Explore our range of 6-inch and 8-inch bricks, designed to meet your specific needs and preferences.
+              </p>
+             
             </div>
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
                 <Image
-                  src="/assets/Illustration1.png"
+                  src="/assets/wall_bricks_2.png"
                   alt="VPN Illustrasi"
                   quality={100}
                   width={612}

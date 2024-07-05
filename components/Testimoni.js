@@ -10,40 +10,44 @@ import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
 const Testimoni = ({
   listTestimoni = [
     {
-      name: "iezh Robert",
+      name: "Suresh K",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
+      city: "Kannankulam",
+      country: "Tirunelveli",
+      rating: "5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+      "We chose Shree Hari Interlocks Bricks for our driveway, and we couldn't be happier with the results. The 6-inch interlock bricks are incredibly durable and look fantastic. The team was professional and helped us throughout the process. Highly recommend!"
+      
     },
     {
-      name: "iezh Robert",
+      name: "Anjali R",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      city: "Anjugram",
+      country: "Kannyakumari",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+     
+"Shree Hari Interlocks Bricks provided exceptional service and high-quality bricks for our garden project. The 8-inch interlock bricks were perfect for our large patio, and the installation was seamless. We'll definitely be using their products again for future projects."
+  
     },
     {
-      name: "iezh Robert",
+      name: "Rajesh P.",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      city: "Tuticorin",
+      country: "Tuticorin",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+      "Excellent quality and great customer service! The interlock bricks from Shree Hari have transformed our backyard. The bricks are strong, beautifully designed, and eco-friendly. The brick calculator on their website made it easy for us to estimate our needs. Very satisfied!"
+      
     },
     {
-      name: "iezh Robert",
+      name: "Meena S.",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
-      testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+      city: "Nagercoil",
+      country: "Kanyakumai",
+      rating: "4",
+      testimoni: "We were impressed by the precision and strength of Shree Hari's 6-inch interlock bricks. They were perfect for our walkway, providing both durability and aesthetic appeal. The staff was knowledgeable and supportive, making our purchase a pleasant experience."
+
     },
   ],
 }) => {
