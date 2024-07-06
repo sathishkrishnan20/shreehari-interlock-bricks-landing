@@ -16,7 +16,7 @@ export default function Calculator() {
     <div>
         <div className=" p-2  w-full max-w-md">
           <div className="mb-4">
-            <label className="block text-lg font-bold mb-2">Enter Square Feet:</label>
+            <label className="block text-lg font-bold mb-2 text-white-500">Enter Square Feet:</label>
             <input
               type="number"
               value={squareFeet}
@@ -25,7 +25,7 @@ export default function Calculator() {
             />
           </div>
           <div className="mb-4">
-            <label className="block text-lg font-bold mb-2">Select Brick Size:</label>
+            <label className="block text-lg font-bold mb-2 text-white-500">Select Brick Size:</label>
             <select
               value={brickSize}
               onChange={(e) => setBrickSize(e.target.value)}
@@ -37,7 +37,7 @@ export default function Calculator() {
           </div>
           <ButtonPrimary title="Calculate" onClick={calculateBricks}>Calculate </ButtonPrimary>
           {numberOfBricks !== null && (
-            <p className="mt-4 text-lg font-bold">
+            <p className="mt-4 text-lg font-bold text-white-500">
               Number of Bricks Needed: {numberOfBricks}
             </p>
           )}

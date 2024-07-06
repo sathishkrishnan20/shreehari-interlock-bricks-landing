@@ -22,7 +22,7 @@ const Pricing = () => {
   };
   return (
     <div
-      className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14"
+      className="bg-gradient-to-r from-orange-500 to-black-500 w-full py-14"
       id="pricing"
     >
       <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
@@ -30,13 +30,13 @@ const Pricing = () => {
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
-              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed"
+              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-white-500 leading-relaxed"
             >
               Choose Your Plan
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
-              className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center"
+              className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center text-white-100"
             >
               Explore our range of 6-inch and 8-inch bricks, designed to meet your specific needs and preferences.
             </motion.p>
@@ -61,10 +61,10 @@ const Pricing = () => {
                     alt="Free Plan"
                   />
                 </div>
-                <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
+                <p className="text-lg text-white-100 font-medium capitalize my-2 sm:my-7">
                   Brick Calculator
                 </p>
-                <p className="text-black-500">
+                <p className="text-white-500">
                   Planning your next project? Use our simple brick calculator to estimate the number of bricks you’ll need
                   </p>
                 <Calculator />
@@ -90,13 +90,13 @@ const Pricing = () => {
                   alt="6inch Brick"
                 />
               </div>
-              <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
+              <p className="text-lg text-white-100 font-medium capitalize my-2 sm:my-7">
                 6"inch Brick{" "}
               </p>
-              <p className="text-black-500">
+              <p className="text-white-500">
                 6-inch interlock bricks are perfect for residential and commercial projects
                 </p>
-              <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
+              <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-white-500 flex-grow">
                 <li className="relative check custom-list my-2">
                 High strength and durability
                 </li>
@@ -109,8 +109,8 @@ const Pricing = () => {
                
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                <p className="text-2xl text-black-600 text-center mb-4 ">
-                  ₹36 <span className="text-black-500">/ Piece</span>
+                <p className="text-2xl text-white-500 text-center mb-4 ">
+                  ₹36 <span className="text-white-100">/ Piece</span>
                 </p>
               
               </div>
@@ -135,13 +135,13 @@ const Pricing = () => {
                   alt="8inch Brick"
                 />
               </div>
-              <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
+              <p className="text-lg text-white-100 font-medium capitalize my-2 sm:my-7">
                 8"inch Brick
               </p>
-              <p className="text-black-500">
+              <p className="text-white-500">
               Designed for larger projects, our 8-inch interlock bricks provide the ultimate in stability and strength.
               </p>
-              <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
+              <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-white-500 flex-grow">
                 <li className="relative check custom-list my-2">
                 Superior stability and strength
                 </li>
@@ -154,8 +154,8 @@ const Pricing = () => {
                
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                <p className="text-2xl text-black-600 text-center mb-4 ">
-                  ₹40 <span className="text-black-500">/ Piece</span>
+                <p className="text-2xl text-white-500 text-center mb-4 ">
+                  ₹40 <span className="text-white-100">/ Piece</span>
                 </p>
 
                
@@ -217,12 +217,12 @@ const Pricing = () => {
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
-              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto">
+              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-white-500 leading-normal w-9/12 sm: lg:w-4/12 mx-auto">
                 Discover the Stunning Projects Completed with Our Bricks
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
-              className="leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-6/12"
+              className="leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-6/12 text-white-100"
             >
               We leverage the latest technology and innovative techniques to produce interlock bricks that are not only strong and durable but also beautiful and versatile. Our continuous investment in research and development ensures that we stay at the forefront of the industry, delivering products that set new standards in quality and performance.
             </motion.p>
@@ -236,12 +236,12 @@ const Pricing = () => {
           <ScrollAnimationWrapper>
             <motion.h4
               variants={scrollAnimation}
-              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto">
+              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-white-500 leading-normal w-9/12 sm: lg:w-4/12 mx-auto">
               Trusted by Thousands of Happy Customer{" "}
             </motion.h4>
             <motion.p
               variants={scrollAnimation}
-              className="leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-6/12"
+              className="leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-6/12 text-white-100"
             >
               Customer satisfaction is our top priority. We work closely with our clients to understand their needs and provide tailored solutions that meet their project specifications.
               These are the stories of our customers who have joined us with great

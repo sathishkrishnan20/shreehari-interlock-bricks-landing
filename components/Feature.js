@@ -25,7 +25,7 @@ const Feature = () => {
           <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
             <Image
               src="/assets/wall_bricks_3.png"
-              alt="VPN Illustrasi"
+              alt="Shree Hari Interlock Bricks"
               layout="responsive"
               quality={100}
               height={254}
@@ -36,14 +36,14 @@ const Feature = () => {
         <ScrollAnimationWrapper>
 
         <motion.div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
-          <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
+          <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-[#ffffff]">
             Interlock Bricks Save you in many ways
           </h3>
-          <p className="my-2 text-black-500">
+          <p className="my-2 text-white-500">
               interlock bricks are perfect for residential and commercial projects. 
               these bricks offer excellent durability and can withstand heavy loads. Ideal for pathways, patios, and driveways,
           </p>
-          <ul className="text-black-500 self-start list-inside ml-8">
+          <ul className="text-[#d3ffdd] self-start list-inside ml-8">
             {features.map((feature, index) => (
               <motion.li
                 className="relative circle-check custom-list"

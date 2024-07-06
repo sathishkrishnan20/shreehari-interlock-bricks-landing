@@ -32,6 +32,7 @@ module.exports = {
         500: "#2FAB73",
       },
       white: {
+        100: '#bfe0e0',
         300: "#F8F8F8",
         500: "#fff",
       },
@@ -40,6 +41,7 @@ module.exports = {
         400: "#AFB5C0",
         500: "#DDDDDD",
       },
+      
     },
     extend: {},
   },
