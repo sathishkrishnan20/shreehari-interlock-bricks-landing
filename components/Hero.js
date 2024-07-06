@@ -31,8 +31,8 @@ const Hero = ({
       className="max-w-screen-xl mt-24 px-8 xl:px-16 mx-auto"
       id="about"
     >
-      <ScrollAnimationWrapper>
-          <motion.div
+      
+          <div
             className="grid grid-flow-row sm:grid-flow-col sm:grid-cols-2 gap-8 py-6 sm:py-16"
             variants={scrollAnimation}>
             <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
@@ -48,7 +48,7 @@ const Hero = ({
              
             </div>
             <div className="flex w-full">
-              <motion.div className="h-full w-full" variants={scrollAnimation}>
+              <div className="h-full w-full" variants={scrollAnimation}>
                 <Image
                   src="/assets/wall_bricks_2.png"
                   alt="VPN Illustrasi"
@@ -57,10 +57,10 @@ const Hero = ({
                   height={383}
                   layout="responsive"
                 />
-              </motion.div>
+              </div>
             </div>
-          </motion.div>
-      </ScrollAnimationWrapper>
+          </div>
+      
       <div className="relative w-full flex">
         <ScrollAnimationWrapper
           className="rounded-lg w-full grid grid-flow-row sm:grid-flow-row grid-cols-1 sm:grid-cols-3 py-9 divide-y-2 sm:divide-y-0 sm:divide-x-2 divide-gray-100 bg-white-500 z-10">
