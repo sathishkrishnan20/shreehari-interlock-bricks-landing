@@ -10,6 +10,12 @@ import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
 const Gallery = ({
   listGallery = [
     {
+      name: "Meena S.",
+      image: "/assets/gallery_8.jpeg",
+      city: "Nagercoil",
+      country: "Kanyakumai",
+    },
+    {
       name: "Suresh K",
       image: "/assets/gallery_1.jpeg",
       city: "Kannankulam",
@@ -56,6 +62,7 @@ const Gallery = ({
       city: "Nagercoil",
       country: "Kanyakumai",
     },
+    
   ],
 }) => {
   const settings = {
