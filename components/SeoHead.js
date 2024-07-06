@@ -4,10 +4,10 @@ import { useRouter } from "next/router";
 
 // Default value for some meta data
 const defaultMeta = {
-  title: 'ShreeHariInterLockBricks',
-  siteName: 'ShreeHariInterLockBricks',
+  title: 'ShreeHariBricks',
+  siteName: 'ShreeHariBricks',
   description:
-    'Landing page Shree Hari Bricks Best Interlock Bricks For Privacy, Country and Cheapest',
+    'Landing page Shree Hari Bricks Best Interlock Bricks',
   // change base url of your web (without '/' at the end)
   url: 'https://shreeharibricks.com',
   type: 'website',
