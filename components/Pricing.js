@@ -7,6 +7,7 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import Calculator from "./Calculator";
 import ContactUsDialog from "./contactUs";
+import Gallery from "./Gallery";
 
 const Pricing = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -163,6 +164,7 @@ const Pricing = () => {
            
           </div>
         </div>
+        
         {/* <div className="flex flex-col w-full my-16">
           <ScrollAnimationWrapper>
             <motion.h3
@@ -216,8 +218,27 @@ const Pricing = () => {
             <motion.h3
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto">
-              Trusted by Thousands of Happy Customer{" "}
+                Discover the Stunning Projects Completed with Our Bricks
             </motion.h3>
+            <motion.p
+              variants={scrollAnimation}
+              className="leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-6/12"
+            >
+              We leverage the latest technology and innovative techniques to produce interlock bricks that are not only strong and durable but also beautiful and versatile. Our continuous investment in research and development ensures that we stay at the forefront of the industry, delivering products that set new standards in quality and performance.
+            </motion.p>
+          </ScrollAnimationWrapper>
+          <ScrollAnimationWrapper className="w-full flex flex-col py-12">
+            <motion.div variants={scrollAnimation}>
+              <Gallery />
+            </motion.div>
+          </ScrollAnimationWrapper>
+
+          <ScrollAnimationWrapper>
+            <motion.h4
+              variants={scrollAnimation}
+              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto">
+              Trusted by Thousands of Happy Customer{" "}
+            </motion.h4>
             <motion.p
               variants={scrollAnimation}
               className="leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-6/12"
@@ -227,6 +248,7 @@ const Pricing = () => {
               pleasure
             </motion.p>
           </ScrollAnimationWrapper>
+
           <ScrollAnimationWrapper className="w-full flex flex-col py-12">
             <motion.div variants={scrollAnimation}>
               <Testimoni />

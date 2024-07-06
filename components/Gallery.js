@@ -7,47 +7,54 @@ import Stars from "../public/assets/Icon/stars.svg";
 import ArrowBack from "../public/assets/Icon/eva_arrow-back-fill.svg";
 import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
 
-const Testimoni = ({
-  listTestimoni = [
+const Gallery = ({
+  listGallery = [
     {
       name: "Suresh K",
-      image: "/assets/people-1.png",
+      image: "/assets/gallery_1.jpeg",
       city: "Kannankulam",
       country: "Tirunelveli",
       rating: "5",
-      testimoni:
-      "We chose Shree Hari Interlocks Bricks for our driveway, and we couldn't be happier with the results. The 6-inch interlock bricks are incredibly durable and look fantastic. The team was professional and helped us throughout the process. Highly recommend!"
-      
+     
     },
     {
       name: "Anjali R",
-      image: "/assets/people-2.png",
+      image: "/assets/gallery_2.jpeg",
       city: "Anjugram",
       country: "Kannyakumari",
       rating: "4.5",
-      testimoni:
      
-"Shree Hari Interlocks Bricks provided exceptional service and high-quality bricks for our garden project. The 8-inch interlock bricks were perfect for our large patio, and the installation was seamless. We'll definitely be using their products again for future projects."
-  
     },
     {
       name: "Rajesh P.",
-      image: "/assets/people-3.png",
+      image: "/assets/gallery_3.jpeg",
       city: "Tuticorin",
       country: "Tuticorin",
-      rating: "4.5",
-      testimoni:
-      "Excellent quality and great customer service! The interlock bricks from Shree Hari have transformed our backyard. The bricks are strong, beautifully designed, and eco-friendly. The brick calculator on their website made it easy for us to estimate our needs. Very satisfied!"
-      
+     
     },
     {
       name: "Meena S.",
-      image: "/assets/people-3.png",
+      image: "/assets/gallery_4.jpeg",
       city: "Nagercoil",
       country: "Kanyakumai",
-      rating: "4",
-      testimoni: "We were impressed by the precision and strength of Shree Hari's 6-inch interlock bricks. They were perfect for our walkway, providing both durability and aesthetic appeal. The staff was knowledgeable and supportive, making our purchase a pleasant experience."
-
+    },
+    {
+      name: "Meena S.",
+      image: "/assets/gallery_5.jpeg",
+      city: "Nagercoil",
+      country: "Kanyakumai",
+    },
+    {
+      name: "Meena S.",
+      image: "/assets/gallery_6.jpeg",
+      city: "Nagercoil",
+      country: "Kanyakumai",
+    },
+    {
+      name: "Meena S.",
+      image: "/assets/gallery_7.jpeg",
+      city: "Nagercoil",
+      country: "Kanyakumai",
     },
   ],
 }) => {
@@ -93,34 +100,18 @@ const Testimoni = ({
         ref={setSliderRef}
         className="flex items-stretch justify-items-stretch"
       >
-        {listTestimoni.map((listTestimonis, index) => (
+        {listGallery.map((listGallries, index) => (
           <div className="px-3 flex items-stretch" key={index}>
             <div className="border-2 border-gray-500 hover:border-orange-500 transition-all rounded-lg p-8 flex flex-col">
               <div className="flex flex-col xl:flex-row w-full items-stretch xl:items-center">
-                <div className="flex order-2 xl:order-1">
                   <Image
-                    src={listTestimonis.image}
-                    height={50}
-                    width={50}
+                    src={listGallries.image}
+                    height={500}
+                    width={500}
                     alt="Icon People"
                   />
-                  <div className="flex flex-col ml-5 text-left">
-                    <p className="text-lg text-black-600 capitalize">
-                      {listTestimonis.name}
-                    </p>
-                    <p className="text-sm text-black-500 capitalize">
-                      {listTestimonis.city},{listTestimonis.country}
-                    </p>
-                  </div>
-                </div>
-                <div className="flex flex-none items-center ml-auto order-1 xl:order-2">
-                  <p className="text-sm">{listTestimonis.rating}</p>
-                  <span className="flex ml-4">
-                    <Stars className="h-4 w-4" />
-                  </span>
-                </div>
               </div>
-              <p className="mt-5 text-left">“{listTestimonis.testimoni}”.</p>
+             
             </div>
           </div>
         ))}
@@ -145,4 +136,4 @@ const Testimoni = ({
   );
 };
 
-export default Testimoni;
+export default Gallery;
