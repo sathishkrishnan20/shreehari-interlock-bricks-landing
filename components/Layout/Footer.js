@@ -1,9 +1,9 @@
 import React from "react";
-import LogoVPN from "../../public/assets/Logo.svg";
 import Facebook from "../../public/assets/Icon/facebook.svg";
 import Twitter from "../../public/assets/Icon/twitter.svg";
 import Instagram from "../../public/assets/Icon/instagram.svg";
 import Image from "next/image";
+
 const Footer = () => {
   return (
     <div className="bg-white-300 pt-44 pb-24">
@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5  flex-col items-start ">
         <Image
               src="/assets/logo.png"
-              alt="VPN Illustrasi"
+              alt="Shree hari interlock bricks"
               layout="responsive"
               quality={100}
               height={80}
@@ -61,7 +61,7 @@ const Footer = () => {
           <p className="text-black-600 mb-4 font-medium text-lg">Contact At</p>
           <ul className="text-black-500">
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              9443750809
+              +91 9443 750 809
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
               rameshannathai@gmail.com

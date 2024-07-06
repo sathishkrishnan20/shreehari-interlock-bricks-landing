@@ -1,17 +1,24 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useState } from "react";
 import Image from "next/image";
 import Testimoni from "./Testimoni";
 import ButtonPrimary from "./misc/ButtonPrimary";
-import ButtonOutline from "./misc/ButtonOutline.";
-import Maps from "../public/assets/HugeGlobal.svg";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import Calculator from "./Calculator";
+import ContactUsDialog from "./contactUs";
 
 const Pricing = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
+  const [open, setOpen] = useState(false);
 
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
   return (
     <div
       className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14"
@@ -34,7 +41,7 @@ const Pricing = () => {
             </motion.p>
           </ScrollAnimationWrapper>
           <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
-            <ScrollAnimationWrapper className="flex justify-center">
+            
               <motion.div
                 variants={scrollAnimation}
                 className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20"
@@ -62,8 +69,8 @@ const Pricing = () => {
                 <Calculator />
                 
               </motion.div>
-            </ScrollAnimationWrapper>
-            <ScrollAnimationWrapper className="flex justify-center">
+           
+           
               <motion.div
                 variants={scrollAnimation}
                 className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20"
@@ -107,8 +114,8 @@ const Pricing = () => {
               
               </div>
               </motion.div>
-            </ScrollAnimationWrapper>
-            <ScrollAnimationWrapper className="flex justify-center">
+           
+           
               <motion.div
                 variants={scrollAnimation}
                 className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20"
@@ -153,7 +160,7 @@ const Pricing = () => {
                
               </div>
               </motion.div>
-            </ScrollAnimationWrapper>
+           
           </div>
         </div>
         {/* <div className="flex flex-col w-full my-16">
@@ -234,7 +241,9 @@ const Pricing = () => {
                   </h5>
                   <p>Let's have cool deal with us </p>
                 </div>
-                <ButtonPrimary>Contact US</ButtonPrimary>
+                
+                <ButtonPrimary onClick={handleClickOpen}>Contact US</ButtonPrimary>
+                <ContactUsDialog open={open} handleClose={handleClose} />
               </div>
               <div
                 className="absolute bg-black-600 opacity-5 w-11/12 roudned-lg h-60 sm:h-56 top-0 mt-8 mx-auto left-0 right-0"
