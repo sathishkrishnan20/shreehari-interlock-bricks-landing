@@ -1,0 +1,11 @@
+{
+    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+    "name": "ShreeHariBricks",
+    "short_name": "ShreeHariBricks",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#F53838",
+    "description": "ShreeHariBricks Best Interlock Bricks Company",
+    "icons": []
+  }
