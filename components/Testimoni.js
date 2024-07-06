@@ -16,7 +16,7 @@ const Testimoni = ({
       country: "Tirunelveli",
       rating: "5",
       testimoni:
-      "We chose Shree Hari Interlocks Bricks for our driveway, and we couldn't be happier with the results. The 6-inch interlock bricks are incredibly durable and look fantastic. The team was professional and helped us throughout the process. Highly recommend!"
+      "We chose Shree Hari Bricks for our driveway, and we couldn't be happier with the results. The 6-inch interlock bricks are incredibly durable and look fantastic. The team was professional and helped us throughout the process. Highly recommend!"
       
     },
     {
@@ -25,9 +25,7 @@ const Testimoni = ({
       city: "Anjugram",
       country: "Kannyakumari",
       rating: "4.5",
-      testimoni:
-     
-"Shree Hari Interlocks Bricks provided exceptional service and high-quality bricks for our garden project. The 8-inch interlock bricks were perfect for our large patio, and the installation was seamless. We'll definitely be using their products again for future projects."
+      testimoni: "Shree Hari Bricks provided exceptional service and high-quality bricks for our garden project. The 8-inch interlock bricks were perfect for our large patio, and the installation was seamless. We'll definitely be using their products again for future projects."
   
     },
     {

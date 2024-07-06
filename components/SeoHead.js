@@ -7,15 +7,15 @@ const defaultMeta = {
   title: 'ShreeHariInterLockBricks',
   siteName: 'ShreeHariInterLockBricks',
   description:
-    'Landing page Shree Hari InterLock Bricks Best Interlock Bricks For Privacy, Country and Cheapest',
+    'Landing page Shree Hari Bricks Best Interlock Bricks For Privacy, Country and Cheapest',
   // change base url of your web (without '/' at the end)
-  url: 'https://next-landing-vpn.vercel.app',
+  url: 'https://shreeharibricks.com',
   type: 'website',
   robots: 'follow, index',
   // change with url of your image (recommended dimension = 1.91:1)
   // used in twitter, facebook, etc. card when link copied in tweet/status 
-  image: 'https://next-landing-vpn.vercel.app/assets/card-image.png',
-  author: 'Lorem Ipsum'
+  image: 'https://shreeharibricks.com/assets/card-image.png',
+  author: 'Ramesh Annathai'
 };
 
 /**

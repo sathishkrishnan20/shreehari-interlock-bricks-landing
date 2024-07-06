@@ -22,8 +22,8 @@ const Header = () => {
         <nav className="max-w-screen-xl px-0 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-0 md:py-2 lg:py-4">
           <div className="hidden md:block col-start-1 col-end-2">
           <Image
-              src="/assets/logo.png"
-              alt="Shree hari Interlock Bricks"
+              src="/assets/shree_hari_bricks_logo.png"
+              alt="Shree hari Bricks"
               layout="responsive"
               
               quality={100}
@@ -33,8 +33,8 @@ const Header = () => {
           </div>
           <div className="block md:hidden col-start-1 col-end-2">
           <Image
-              src="/assets/logo.png"
-              alt="Shree hari Interlock Bricks"
+              src="/assets/shree_hari_bricks_logo.png"
+              alt="Shree hari Bricks"
               layout="responsive"
               quality={100}
               height={50}

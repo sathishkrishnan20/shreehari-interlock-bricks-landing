@@ -37,10 +37,10 @@ const Hero = ({
             variants={scrollAnimation}>
             <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
               <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-white-100 leading-normal">
-              Transforming Spaces with  <strong>Shree Hari Interlock Bricks</strong>.
+              Transforming Spaces with  <strong>Shree Hari Bricks</strong>.
               </h1>
               <p className="text-white-500 mt-4 mb-6">
-                Welcome to Shree Hari Interlocks Bricks! We specialize in providing high-quality interlock bricks that are perfect for creating beautiful, durable, and eco-friendly constructions. 
+                Welcome to Shree Hari Bricks! We specialize in providing high-quality interlock bricks that are perfect for creating beautiful, durable, and eco-friendly constructions. 
               </p>
               <p className="text-white-500 mb-6">
                 Whether you’re paving a driveway, building a garden path, or constructing an entire building, our interlock bricks are the ideal choice. Explore our range of 6-inch and 8-inch bricks, designed to meet your specific needs and preferences.
@@ -51,7 +51,7 @@ const Hero = ({
               <div className="h-full w-full" variants={scrollAnimation}>
                 <Image
                   src="/assets/wall_bricks_2.png"
-                  alt="Shree Hari Interlock Bricks"
+                  alt="Shree Hari Bricks"
                   quality={100}
                   width={612}
                   height={383}

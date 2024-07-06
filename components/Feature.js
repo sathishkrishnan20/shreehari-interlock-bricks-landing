@@ -25,7 +25,7 @@ const Feature = () => {
           <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
             <Image
               src="/assets/wall_bricks_3.png"
-              alt="Shree Hari Interlock Bricks"
+              alt="Shree Hari Bricks"
               layout="responsive"
               quality={100}
               height={254}
