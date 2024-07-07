@@ -36,14 +36,14 @@ const Feature = () => {
         <ScrollAnimationWrapper>
 
         <motion.div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
-          <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-[#ffffff]">
+          <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-white-100">
             Interlock Bricks Save you in many ways
           </h3>
           <p className="my-2 text-white-500">
               interlock bricks are perfect for residential and commercial projects. 
               these bricks offer excellent durability and can withstand heavy loads. Ideal for pathways, patios, and driveways,
           </p>
-          <ul className="text-[#d3ffdd] self-start list-inside ml-8">
+          <ul className="text-white-200 self-start list-inside ml-8">
             {features.map((feature, index) => (
               <motion.li
                 className="relative circle-check custom-list"

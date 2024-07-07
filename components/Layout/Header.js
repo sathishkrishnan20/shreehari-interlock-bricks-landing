@@ -15,8 +15,8 @@ const Header = () => {
     <>
       <header
         className={
-          "fixed top-0 w-full  z-30 bg-white-500 transition-all " +
-          (scrollActive ? " shadow-md pt-0" : "pt-0 md:pt-2 lg:pt-4")
+          "block md:fixed top-0 w-full  z-30 bg-white-500 transition-all " +
+          (scrollActive ? " shadow-md pt-0" : "pt-0 mb-[-6rem] md:mb-0 md:pt-2 lg:pt-4")
         }
       >
         <nav className="max-w-screen-xl px-0 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-0 md:py-2 lg:py-4">
@@ -31,14 +31,15 @@ const Header = () => {
               width={200}
             />
           </div>
-          <div className="block md:hidden col-start-1 col-end-2">
+          <div className="block md:hidden mx-2 col-start-1 col-end-2">
           <Image
               src="/assets/shree_hari_bricks_logo.png"
               alt="Shree hari Bricks"
               layout="responsive"
+              className="border "
               quality={100}
-              height={50}
-              width={200}
+              height={18}
+              width={100}
             />
           </div>
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
