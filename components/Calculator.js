@@ -8,7 +8,8 @@ export default function Calculator() {
 
   const calculateBricks = () => {
     const areaPerBrick = brickSize === '6' ? 0.5 : 0.75;
-    const totalBricks = Math.ceil(squareFeet / areaPerBrick);
+    // const totalBricks = squareFeet * 2.4;
+    const totalBricks = Math.ceil(squareFeet * 2.4);
     setNumberOfBricks(totalBricks);
   };
 

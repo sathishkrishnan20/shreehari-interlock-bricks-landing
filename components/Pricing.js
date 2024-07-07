@@ -110,7 +110,7 @@ const Pricing = () => {
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-white-500 text-center mb-4 ">
-                  ₹36 <span className="text-white-100">/ Piece</span>
+                  ₹38 <span className="text-white-100">/ Brick</span>
                 </p>
               
               </div>
@@ -155,7 +155,7 @@ const Pricing = () => {
               </ul>
               <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                 <p className="text-2xl text-white-500 text-center mb-4 ">
-                  ₹40 <span className="text-white-100">/ Piece</span>
+                  ₹42 <span className="text-white-100">/ Brick</span>
                 </p>
 
                
